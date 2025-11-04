@@ -1,0 +1,54 @@
+{
+  "title": "Capítulo 1: El Espejo del Ego",
+  "startScene": "inicio",
+  "scenes": {
+    "inicio": {
+      "text": "Estás en una habitación apenas iluminada. Frente a ti, un espejo antiguo con un marco ornamentado.\nRefleja tu imagen, pero parece guardar algo más profundo. La habitación está en silencio, esperando tu próximo movimiento.",
+      "choices": [
+        {
+          "text": "Acercarte y mirar fijamente tu reflejo.",
+          "feedback": "Tu reflejo te sonríe, pero sus ojos parecen tristes. Una extraña melancolía te invade.",
+          "nextScene": "decision_reflejo"
+        },
+        {
+          "text": "Ignorar el espejo y buscar una salida.",
+          "feedback": "Sientes una punzada de cobardía, como si estuvieras huyendo de algo importante.",
+          "nextScene": "decision_salida"
+        }
+      ]
+    },
+    "decision_reflejo": {
+      "text": "La tristeza en los ojos de tu reflejo se intensifica. Una sola lágrima recorre su mejilla, pero tú no estás llorando.\nEl espejo parece susurrar una pregunta en tu mente: '¿Qué es lo que realmente te duele?'",
+      "choices": [
+        {
+          "text": "Responder 'Mi soledad'.",
+          "feedback": "El espejo se empaña y la imagen se desvanece.",
+          "nextScene": "final"
+        },
+        {
+          "text": "Responder 'No lo sé'.",
+          "feedback": "El reflejo asiente lentamente, como si entendiera tu confusión.",
+          "nextScene": "final"
+        }
+      ]
+    },
+    "decision_salida": {
+      "text": "Das la espalda al espejo y buscas a tientas una puerta en la oscuridad. Encuentras un pomo frío.\nAl girarlo, la puerta se abre a un pasillo idéntico, con otro espejo al fondo. Parece que no puedes escapar de ti mismo tan fácilmente.",
+      "choices": [
+        {
+          "text": "Rendirte y volver al primer espejo.",
+          "feedback": "Al volver, sientes una calma extraña. Aceptar es el primer paso.",
+          "nextScene": "decision_reflejo"
+        },
+        {
+          "text": "Seguir adelante, hacia el siguiente espejo.",
+          "feedback": "La determinación te impulsa, aunque una parte de ti sabe que el ciclo se repetirá.",
+          "nextScene": "final"
+        }
+      ]
+    },
+    "final": {
+      "text": "Has completado 'El Espejo del Ego'. No hay respuestas correctas, solo reflejos distintos de ti mismo."
+    }
+  }
+}
