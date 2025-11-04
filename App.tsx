@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import GameScene from './components/GameScene.tsx';
+import GameScene from '@/components/GameScene';
 
 const App: React.FC = () => {
   const [gameStarted, setGameStarted] = useState(false);
